@@ -1,3 +1,6 @@
+# yr dang credentials
+tfsetup
+
 # Local .terraform directories and files
 **/.terraform/*
 .terraform.lock.hcl
