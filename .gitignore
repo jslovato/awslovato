@@ -3,7 +3,9 @@ tfsetup
 
 # Local .terraform directories and files
 **/.terraform/*
-.terraform.lock.hclg
+.terraform.lock.hcl
+*.lock.hcl
+terraform/terraform.tfvars
 
 # .tfstate files
 *.tfstate
