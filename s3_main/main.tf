@@ -1,7 +1,7 @@
 # ensure we stay in us-west-2 our default aws region
 data "aws_region" "current" {}
 
-resource "aws_s3_bucket" "loging_setup" {
+resource "aws_s3_bucket" "main_logging_setup" {
   bucket = "awslovato"
   acl    = "log-delivery-write"
 }
